@@ -1,4 +1,4 @@
-# Open Todo list API
+# Blocmetrics
 
 sub description.
 
@@ -23,9 +23,14 @@ $ cd /path/to/rails/application
 
 ```
 $ cp config/database.yml.template config/database.yml
+$ cp config/initializers/mail.rb.template config/initializers/mail.rb
 ```
 
 Note:  You may need to edit the above files as necessary for your system.
+
+## Environment variable management
+
+- set up configure something [Figaro](https://github.com/laserlemon/figaro)
 
 ## Create the database
 
