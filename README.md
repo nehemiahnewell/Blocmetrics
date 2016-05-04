@@ -30,7 +30,11 @@ Note:  You may need to edit the above files as necessary for your system.
 
 ## Environment variable management
 
-- set up configure something [Figaro](https://github.com/laserlemon/figaro)
+```
+$ cp config/application.yml.template config/application.yml
+```
+
+Nite:  Please see full complete instruction for [Figaro](https://github.com/laserlemon/figaro).
 
 ## Create the database
 

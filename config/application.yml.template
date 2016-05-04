@@ -1,0 +1,18 @@
+development:
+  GMAIL_SMTP_ADDRESS:   smtp.example.com
+  GMAIL_SMTP_DOMAIN:    example.com
+  GMAIL_SMTP_USER_NAME: someone@example.com
+  GMAIL_SMTP_PASSWORD:  someonepassword
+  
+test:
+  GMAIL_SMTP_ADDRESS:   smtp.example.com
+  GMAIL_SMTP_DOMAIN:    example.com
+  GMAIL_SMTP_USER_NAME: someone@example.com
+  GMAIL_SMTP_PASSWORD:  someonepassword
+  
+production:
+  GMAIL_SMTP_ADDRESS:   smtp.example.com
+  GMAIL_SMTP_DOMAIN:    example.com
+  GMAIL_SMTP_USER_NAME: someone@example.com
+  GMAIL_SMTP_PASSWORD:  someonepassword
+
