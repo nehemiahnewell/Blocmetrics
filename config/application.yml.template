@@ -15,4 +15,3 @@ production:
   GMAIL_SMTP_DOMAIN:    example.com
   GMAIL_SMTP_USER_NAME: someone@example.com
   GMAIL_SMTP_PASSWORD:  someonepassword
-
