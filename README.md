@@ -23,6 +23,7 @@ $ cd /path/to/rails/application
 
 ```
 $ cp config/database.yml.template config/database.yml
+$ cp config/application.yml.template config/application.yml
 ```
 
 Note:  You may need to edit the above files as necessary for your system.
