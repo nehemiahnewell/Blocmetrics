@@ -8,13 +8,6 @@ class User < ActiveRecord::Base
          :trackable,
          :validatable,
          :confirmable
-
-  after_create :send_user_emails
+         
   has_many :registered_applications
-
-  private
-
-  def send_user_emails
-    LogonMailer.new_signup(self).deliver_now
-  end
 end
