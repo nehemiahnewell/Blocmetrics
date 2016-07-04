@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   resources :registered_applications
 
+  get 'welcome', to: 'welcome#index'
   root 'welcome#index'
 end
