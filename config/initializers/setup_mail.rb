@@ -9,11 +9,6 @@ ActionMailer::Base.smtp_settings = {
   enable_starttls_auto: true
 }
 
-# address:             'smtp.sendgrid.net',
-# port:                '2525',
-# authentication:      :plain,
-# user_name:           ENV['SENDGRID_USERNAME'],
-# password:            ENV['SENDGRID_PASSWORD'],
-# domain:              'heroku.com',
-# enable_starttls_auto: true
-# }
+if Rails.env.development? || Rails.env.test?
+  ActionMailer::Base.register_interceptor(SandboxEmailInterceptor)
+end
