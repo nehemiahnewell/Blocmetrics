@@ -1,3 +1,7 @@
+#
+# figaro heroku:set -e production
+#
+
 development:
   SMTP_ADDRESS:   smtp.example.com
   SMTP_DOMAIN:    example.com
