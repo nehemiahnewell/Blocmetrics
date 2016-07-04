@@ -4,6 +4,7 @@ development:
   SMTP_USER_NAME: someone@example.com
   SMTP_PASSWORD:  someonepassword
   SMTP_PORT:      1111
+  DEFAULT_EMAIL:  someuser@example.com
 
 test:
   SMTP_ADDRESS:   smtp.example.com
@@ -11,6 +12,7 @@ test:
   SMTP_USER_NAME: someone@example.com
   SMTP_PASSWORD:  someonepassword
   SMTP_PORT:      1111
+  DEFAULT_EMAIL:  someuser@example.com
 
 production:
   SMTP_ADDRESS:   smtp.example.com
@@ -18,3 +20,4 @@ production:
   SMTP_USER_NAME: someone@example.com
   SMTP_PASSWORD:  someonepassword
   SMTP_PORT:      1111
+  DEFAULT_EMAIL:  someuser@example.com
